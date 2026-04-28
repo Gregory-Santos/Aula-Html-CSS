@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+</head>
+<body>
+    <header>
+        <h2>Aula 03</h2>
+    </header>
+
+    <nav>
+        <a href="contato.html">Esporte</a>
+    </nav>
+    <section>
+        <h2>Esporte</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Animi consequuntur, qui eius saepe velit eum. Minus
+            incidunt excepturi tempore explicabo error dignissimos
+            ullam, quae temporibus magni earum dolorem suscipit
+            consequuntur!</p>
+        

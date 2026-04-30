@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <body>
+        <header>
+            <h1>SELEÇÃO BRASILEIRA</h1>
+        </header>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="artilheiros.html">Maiores Jogadores</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        <main>
+            <form action="enviar-contato.html" method="get">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <div class="campo">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required minlength="3">
+                    </div>
+                    <div class="campo">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+                    </div>
+                    <div class="campo">
+                        <label for="assunto">Assunto</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione...</option>
+                            <option value="orcamento">Orçamento</option>
+                            <option value="suporte">Suporte técnico</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" minlength="20" required
+                            placeholder="Escreva sua mensagem...">
+                        </textarea>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="termos" name="termos" required>
+                        <label for="termos">
+                            Aceito os
+                            <a href="termos.html">termos de uso</a>
+                        </label>
+                    </div>
+                    <div class="botoes">
+                        <button type="reset">Limpar</button>
+                        <button type="submit">Enviar mensagem</button>
+                    </div>
+
+                    <h2>Horários de atendimento</h2>
+                    <table>
+
+                        <caption>Atendimento presencial e online</caption>
+                        <thead>
+                            <tr>
+                                <th>Dia</th>
+                                <th>Horário</th>
+                                <th>Modalidade</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Segunda–Sexta</td>
+                                <td>8h – 18h</td>
+                                <td>Presencial e online</td>
+                            </tr>
+                            <tr>
+                                <td>Sábado</td>
+                                <td>9h – 13h</td>
+                                <td>Somente online</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Domingo: fechado</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                </fieldset>
+            </form>
+        </main>
+        <!-- Rodapé do site -->
+        <footer>
+            <p>&copy; 2026 Gregory, Brasil</p>
+        </footer>
+    </body>
+
+</html>
